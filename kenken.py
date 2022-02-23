@@ -258,7 +258,7 @@ class KenKen():
 
             except:
                 st.write('Error occured. There is likely as issue with OCR, Please disregard output and try another puzzle')
-                st.write('If this is occuring repeatedly, make sure model "math_cells" and "given cells" avaialble in github repo are in your local tesseract installation e.g. C:/Program Files/Tesseract-OCR/tessdata/math_cells')
+                st.write('If this is occuring repeatedly, make sure model "math_cells.traineddata" and "given_cells.traineddata" avaialble in github repo are in your local tesseract installation e.g. C:/Program Files/Tesseract-OCR/tessdata/math_cells')
                 # show images of tesseract images and output possibly allowing for correction
                 #calcudoku.ocr_linked_cells(cell_size,list_connected_cells,number_of_cells,list_cell_top_right_pix,imgWarped,show=True)
                 break
@@ -520,7 +520,7 @@ if __name__ == '__main__':
         st.write('https://tesseract-ocr.github.io/tessdoc/Downloads.html')
 
         st.subheader("Custom trained models")
-        st.write('In addition two custom trained tesseract language models will need to be added into the tesseract/tessdata folder. Both will be available in the github repo')
+        st.write('In addition two custom trained tesseract language models will need to be added into the tesseract/tessdata folder. Both will be available in the github repo ')
         st.write('The first model is known as math_cells for recognising numbers and math operators in math cells')
         st.write('The second model known as given_cells is used to recognise the number in solid cells')
 
@@ -640,6 +640,6 @@ if __name__ == '__main__':
         st.header("About")
 
         st.write('This project developed by Declan Stockdale')
-        st.write(' Link to github repository')
+        st.write(' Link to github repository https://github.com/Declan-Stockdale/streamlit_calcudoku_solver/tree/')
 
         st.write('This project was performed as a personal project in addition to developing and implement various data processing andd computer vision skills')
