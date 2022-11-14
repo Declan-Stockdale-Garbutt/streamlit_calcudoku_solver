@@ -33,7 +33,7 @@ $ cd streamlit_calcudoku_solver
 (streamlit_calcudoku_solver)$ pip install -r requirements.txt
 
 # Run the app
-(streamlit_calcudoku_solver)$ streamlit calcudku_solver.py
+(streamlit_calcudoku_solver)$ streamlit app.py
 
 # To deactivate (when you're done):
 (streamlit_calcudoku_solver)$ conda deactivate
@@ -49,7 +49,7 @@ $conda activate streamlit_calcudoku_solver
 (streamlit_calcudoku_solver)$cd streamlit_calcudoku_solver
 
 # run app
-(streamlit_calcudoku_solver)$stremlit run calcudku_solver.py
+(streamlit_calcudoku_solver)$stremlit run app.py
 
 # To deactivate (when you're done):
 (streamlit_calcudoku_solver)$ conda deactivate
