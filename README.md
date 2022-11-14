@@ -17,11 +17,13 @@ This app has been deployed on Heroku https://calcudokusolver.herokuapp.com/ Hero
 
 
 ### Run Locally
-This is alot more involed and may involve modifying the code to include paths to relevant files
+This is alot more involved and may involve modifying the code to include paths to relevant files
 
 The Tesseract directory must be added to the PATH 
 
-In calcucdoku_solver.py lines 235, 354 should point to tessdata folder e.g. --tessdata-dir "tessdata directory" --psm 6 --oem 3 (--tessdata-dir "C:/Program Files/Tesseract-OCR/tessdata" --psm 6 --oem 3
+In calcucdoku_solver.py lines 235, 354 should point to tessdata folder e.g. --tessdata-dir "tessdata directory" --psm 6 --oem 3 
+
+ Mine looks like this --tessdata-dir "C:/Program Files/Tesseract-OCR/tessdata" --psm 6 --oem 3
  
 The tessdata folder whoul also have the math_cells and given_cells traineddata files. If not, copy them into the folder.
  
