@@ -110,7 +110,7 @@ def write_solved_puzzle(list_of_centres_and_values,filepath,number_of_cells,colo
     - They will need to be decreased by the text height and width to make sure the text is displayed optimally
     - The ratios to offset were found by trial and error
     '''
-    image = cv2.imread(filepath)
+    image = filepath# cv2.imread(filepath)
 
     fontscale = round(1.5 *9/number_of_cells,1)
     thickness = math.floor(fontscale)
