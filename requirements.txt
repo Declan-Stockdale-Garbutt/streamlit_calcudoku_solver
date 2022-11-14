@@ -4,5 +4,6 @@ opencv-python-headless==4.2.0.32
 Pillow==9.0.1
 pytesseract==0.3.7
 streamlit==1.5.0
+protobuf==3.20.*
 #opencv_python==4.5.1.48
 
