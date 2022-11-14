@@ -1,6 +1,6 @@
 # streamlit_calcudoku_solver
 
-This program was built ot solve calcudoku puzzles from the calcudoku app on the Google play store.
+This program was built to solve calcudoku puzzles from the calcudoku app on the Google play store.
 Calcudoku puzzles are identical to KenKen puzzles
 
 ## How it works
@@ -11,8 +11,11 @@ The puzzle solving is performed using code from https://github.com/chanioxaris/k
 
 
 ## App deployment
+
+### Heroku
 This app has been deployed on Heroku. Heroku has undergone updates since deployment and app may no longer be functional
 
+### Run Locally
 ```bash
 # Create virtual environment click y to install additional downloads if required
 $ conda create -n streamlit_calcudoku_solver python=3.8
