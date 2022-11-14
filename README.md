@@ -13,7 +13,8 @@ The puzzle solving is performed using code from https://github.com/chanioxaris/k
 ## App deployment
 
 ### Heroku
-This app has been deployed on Heroku. Heroku has undergone updates since deployment and app may no longer be functional
+This app has been deployed on Heroku https://calcudokusolver.herokuapp.com/ Heroku has undergone updates since deployment and app may no longer be functional
+
 
 ### Run Locally
 ```bash
