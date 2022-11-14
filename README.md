@@ -19,7 +19,7 @@ This app has been deployed on Heroku https://calcudokusolver.herokuapp.com/ Hero
 ### Run Locally
 This is alot more involved and may involve modifying the code to include paths to relevant files
 
-The Tesseract directory must be added to the PATH 
+The Tesseract directory must be added to the PATH. Links to download here https://github.com/tesseract-ocr/tessdoc/blob/main/Installation.md
 
 In calcucdoku_solver.py lines 235, 354 should point to tessdata folder e.g. --tessdata-dir "tessdata directory" --psm 6 --oem 3 
 
@@ -45,7 +45,7 @@ $ cd streamlit_calcudoku_solver
 (streamlit_calcudoku_solver)$ pip install -r requirements.txt
 
 # Run the app
-(streamlit_calcudoku_solver)$ streamlit app.py
+(streamlit_calcudoku_solver)$ streamlit run app.py
 
 # To deactivate (when you're done):
 (streamlit_calcudoku_solver)$ conda deactivate
