@@ -281,7 +281,7 @@ if __name__ == '__main__':
         # Page title container
         with header:
             st.title('Calcudoku/KenKen solver application')
-            st.subheader(' This app developed by Declan Stockdale ')
+            st.subheader(' This app developed by Declan Stockdale-Garbutt ')
 
         #select image
         with image_selection:
@@ -587,5 +587,5 @@ if __name__ == '__main__':
     if add_selectbox == "About":
         st.header("About")
 
-        st.write("My name is Declan Stockdale and l'm undertaking a Masters in Data Science in Australia")
+        st.write("My name is Declan Stockdale-Garbutt and l'm undertaking a Masters in Data Science in Australia")
         st.write("This project was undertaken as a hobby and to develop various programming skills and gain experience deploying apps.")
