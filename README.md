@@ -1,4 +1,4 @@
-# streamlit_calcudoku_solver
+# streamlit calcudoku solver
 
 This program was built to solve calcudoku puzzles from the calcudoku app on the Google play store.
 Calcudoku puzzles are identical to KenKen puzzles
@@ -101,6 +101,7 @@ There is also the option to change the colour to one of nuerous options
 ![image](https://user-images.githubusercontent.com/53500810/206888583-7016a40c-7d46-4cec-8681-345c6e299b1c.png)
 
 
-
+## Supplementary information
+Other pages describe the data collection, training and evaluation process
 
 
